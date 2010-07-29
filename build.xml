@@ -1,4 +1,4 @@
-<project name="ProjetoTeste" default="build" basedir=".">
+<project name="projeto-ci-hudson" default="build" basedir=".">
  <target name="clean">
   <!-- Clean up -->
   <delete dir="build"/>
