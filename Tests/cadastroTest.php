@@ -1,6 +1,6 @@
 <?php
-require_once 'PHPUnit/Framework.php';
-require_once 'cadastro.class.php';
+
+require_once 'Object/Cadastro.class.php';
  
 class CadastroTest extends PHPUnit_Framework_TestCase
 {
