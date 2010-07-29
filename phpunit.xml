@@ -7,7 +7,7 @@
   <testsuites>
     <testsuite name="Cadastro">
       <directory>Tests</directory>
-			<file>CadastroTest.php</file>
+			<file>Tests/CadastroTest.php</file>
     </testsuite>
   </testsuites>
 
