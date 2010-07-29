@@ -21,10 +21,6 @@
   <filter>
     <whitelist addUncoveredFilesFromWhitelist="true">
       <directory suffix=".php">Object</directory>
-       <exclude>
-         <file>Object/Freezer/HashGenerator.php</file>
-         <file>Object/Freezer/IdGenerator.php</file>
-       </exclude>
     </whitelist>
   </filter>
 
