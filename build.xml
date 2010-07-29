@@ -22,9 +22,6 @@
   <exec dir="${basedir}"
         executable="phpunit"
         failonerror="true">
-   <arg line="--log-junit       svn/_build/logs/junit.xml
-              --coverage-clover build/logs/clover.xml
-             svn/tests"/>
   </exec>
  </target>
 
