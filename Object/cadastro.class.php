@@ -14,7 +14,7 @@
      * @parameter $phrase 
      */
 		public function say($phrase = 'Qualquer coisa') {
-			echo $phrase;
+			return "Voce disse " . $phrase;
 		}
 		
 	}
