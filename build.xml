@@ -11,19 +11,9 @@
   <mkdir dir="${basedir}/build/pdepend"/>
  </target>
 
- <!-- Run unit tests and generate junit.xml and clover.xml 
+ <!-- Run unit tests and generate junit.xml and clover.xml -->
  <target name="phpunit">
-  <exec executable="phpunit" failonerror="true">
-		
-	</exec>
- </target>
--->
- <target name="phpunit">
-  <exec dir="${basedir}"
-        executable="phpunit"
-        failonerror="true">
-				<arg line="Tests/cadastroTest.php" />
-  </exec>
+  <exec executable="phpunit" failonerror="true" />
  </target>
 
  <!-- Run pdepend, phpmd, phpcpd, and phpcs in parallel -->
