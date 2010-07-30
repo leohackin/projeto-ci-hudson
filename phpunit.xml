@@ -6,8 +6,7 @@
 
   <testsuites>
     <testsuite name="Cadastro">
-      <directory>Tests</directory>
-			<file>Tests/CadastroTest.php</file>
+      <directory suffix="Test.php">Tests</directory>
     </testsuite>
   </testsuites>
 
